@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+body{
+    background-color: hsl(218, 53%, 9%);
+    font-size: 14px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 1rem;
+}
+.logo{
+     width: 80px;
+     height: 30px;
+     margin-left: 1rem;
+     margin-top: 1rem;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    margin: 1rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: hsl(176, 68%, 64%);
+}
+/* body */
+.section2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.section2 p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.section2 h1{
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.section2 .img1{
+    width: 600px;
+    margin: 90px 0 20px;
+}
+.btn{
+    width: 15rem;
+    height: 40px;
+    border-radius: 2rem;
+    background: linear-gradient(50deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.btn:hover{
+        background: linear-gradient(50deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}
+.bgimage{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: -210px;
+    z-index: -1;
+}
+.section3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: -120px;
+    z-index: -1;
+    height: auto;
+}
+.section3 h1{
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.section3 p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item{
+    margin: 20px;
+}
+.textcontainer{
+    width: 485px;
+    margin: auto;
+}
+.textcontainer2{
+    width: 300px;
+    margin: auto;
+}
+.grid-container2{
+    display: flex;
+    justify-content: center;
+}
+.grid-item2{
+    padding-left: 5.5rem;
+    overflow: hidden;
+}
+.grid-item3{
+    position: relative;
+}
+.grid-item2 h1{
+    margin: 40px 0;
+    font-weight: 700;
+}
+.img2{
+    width: 500px;
+}
+.textcontainer3a p{
+    margin: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 600px;
+} 
+.grid-container3{
+    display: grid;
+    margin: 60px;
+    gap: 20px;
+    grid-template-columns: auto auto auto
+}
+.textcontainer3{
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 20px 2px hsl(216, 53%, 9%);
+}
+.testimonials{
+    display: flex;
+    margin-top: 20px;
+}
+.testimonials img{
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    margin-right: 10px;
+}
+.testimonials p{
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.textcontainer3a a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 20px;
+    margin-top: 150px;
+}
+.cta {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.form{
+    margin-top: 30px;
+}
+.section6{
+    position: absolute;
+    top: 10px;
+    background-color: hsl(219, 30%, 18%);
+    width: 700px;
+    padding: 3.5rem 3rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px 2px hsl(216, 53%, 9%);
+}
+.section6 h1{
+    margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.section6 p{
+    width: 550px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+input{
+    border-radius: 2rem;
+    width: 450px;
+    height: 40px;
+    border: none;
+    padding: 0 12px;
+}
+#btn2{
+    width: 25%;
+    border-radius: 2rem;
+    background: linear-gradient(50deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    height: 40px;
+    margin-left: 1rem;
+}
+#btn2:hover{
+    background: linear-gradient(50deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}
+.lastsection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 150px;
+}
+footer .logo{
+    margin-top: 140px;
+}
+.lastsection li{
+    list-style: none;
+}
+.lastsection a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.phone, .email, .location{
+    display: flex;
+}
+.lastsection img{
+    width: 15px;
+    height: 15px;
+}
+.phone p, .email p, .location p{
+    margin-left: 5px;
+}
+.icons{
+    display: flex;
+}
+i{
+    margin-left: 1rem;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-self: center;
+}
+.quotes{
+    width: 30px;
+    position: absolute;
+    top: -20px;
+}
+.attribution{
+    text-align: center;
+}
+.attribution a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 375px){
+nav{
+    padding-top: 0.75rem;
+}
+.logo{
+        width: 75px;
+        height: 25px;
+}
+.grid-container, .grid-container3{
+    grid-template-columns: auto;
+}
+.textcontainer{
+    width: 335px;
+    margin: auto;
+}
+.section2 .img1{
+    width: 50%;
+}
+.bgimage{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: -200px;
+    z-index: -1;
+}
+.img2{
+    width: 320px;
+}
+button{
+    width: 160px;
+    height: 35px;
+    margin-bottom: 50px;
+}
+.grid-container2{
+    flex-direction: column;
+}
+.grid-item2{
+    padding-left: 1.5rem;
+}
+.textcontainer3a p{
+    margin: 20px 0;
+    width: 300px;
+} 
+.textcontainer3{
+    padding: 15px;
+}
+.testimonials img{
+    width: 30px;
+    height:30px;
+}
+.testimonials p{
+    margin-top: 0;
+}
+.section6{
+    width: 75%;
+    padding: 2rem 2rem;
+}
+.section6 p{
+    width: 300px;
+} 
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    max-width: 100%;
+    width: auto;
+    height: 40px;
+    padding: 0 12px;
+    margin-bottom: 15px;
+}
+#btn2{
+    max-width: 100%;
+    width: auto;
+    height: 40px;
+    margin: 0;
+}
+.lastsection{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    height: 450px;
+}
+footer .logo{
+    margin-top: 200px;
+}
+.phone, .email, .location{
+    margin-bottom: 0;
+}
+.phone p, .email p, .location p{
+    margin-left: 10px;
+}
+.icons{
+    display: flex;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+}
